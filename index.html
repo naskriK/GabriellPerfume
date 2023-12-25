@@ -16,8 +16,48 @@
   </head>
   <body>
     <div id="app" class="font-primary">
-      <h1>asd</h1>
-      <h1 class="font-secondary">Cosiek mosiek</h1>
+      <div
+        class="min-h-screen bg-background flex items-center justify-center px-4"
+      >
+        <div
+          class="w-full max-w-[300px] mx-auto bg-slate-50 shadow-sm rounded-lg overflow-hidden"
+        >
+          <figure>
+            <picture>
+              <source
+                srcset="./src/assets/images/image-product-mobile.jpg"
+                media="(max-width:600px)"
+              />
+              <img
+                src="./src/assets/images/image-product-desktop.jpg"
+                alt="Gabrielle Essence Eau De Parfum"
+              />
+            </picture>
+          </figure>
+          <div class="p-4">
+            <p class="text-primary uppercase text-xs tracking-[4px] mb-2">
+              Perfume
+            </p>
+            <h1 class="text-3xl font-bold font-secondary leading-[1.15] mb-4">
+              Gabrielle Essence Eau De Parfum
+            </h1>
+            <p class="text-text text-[15px] mb-6">
+              A floral, solar and voluptuous interpretation composed by Olivier
+              Polge, Perfumer-Creator for the House of CHANEL.
+            </p>
+            <div class="flex items-center gap-4 font-secondary mb-4">
+              <p class="text-3xl text-primary font-bold">$149.99</p>
+              <p class="text-xs text-slate-600 line-through">$169.99</p>
+            </div>
+            <button
+              class="flex items-center justify-center gap-2 bg-primary text-neutral-50 w-full py-2 rounded-lg font-medium"
+            >
+              <img src="./src/assets/images/icon-cart.svg" alt="" />
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
