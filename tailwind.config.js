@@ -7,7 +7,7 @@ export default {
         secondary: ["Fraunces", "sans-serif"],
       },
       colors: {
-        primary: "hsl(158, 36%, 37%)",
+        primary: "hsl(126, 100%, 20%)",
         background: "hsl(30, 38%, 92%)",
         heading: "hsl(212, 21%, 14%)",
         text: "hsl(228, 12%, 48%)",
