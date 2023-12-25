@@ -20,13 +20,13 @@
         class="min-h-screen bg-background flex items-center justify-center px-4"
       >
         <div
-          class="w-full max-w-[300px] mx-auto bg-slate-50 shadow-sm rounded-lg overflow-hidden"
+          class="w-full max-w-[320px] mx-auto bg-slate-50 shadow-sm rounded-lg overflow-hidden sm:grid sm:grid-cols-2 sm:max-w-[550px]"
         >
           <figure>
             <picture>
               <source
                 srcset="./src/assets/images/image-product-mobile.jpg"
-                media="(max-width:600px)"
+                media="(max-width:640px)"
               />
               <img
                 src="./src/assets/images/image-product-desktop.jpg"
@@ -34,7 +34,7 @@
               />
             </picture>
           </figure>
-          <div class="p-4">
+          <div class="p-4 flex flex-col sm:py-6">
             <p class="text-primary uppercase text-xs tracking-[4px] mb-2">
               Perfume
             </p>
@@ -50,7 +50,7 @@
               <p class="text-xs text-slate-600 line-through">$169.99</p>
             </div>
             <button
-              class="flex items-center justify-center gap-2 bg-primary text-neutral-50 w-full py-2 rounded-lg font-medium"
+              class="flex items-center justify-center gap-2 bg-primary text-neutral-50 w-full py-2 rounded-lg font-medium sm:mt-auto"
             >
               <img src="./src/assets/images/icon-cart.svg" alt="" />
               Add to Cart
